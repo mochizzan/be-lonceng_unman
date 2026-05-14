@@ -9,7 +9,7 @@ RUN go mod download
 COPY . .
 RUN go build -v -o api ./cmd/api
 
-FROM golang:1.26-alpine
+FROM alpine:latest
 
 WORKDIR /app
 
