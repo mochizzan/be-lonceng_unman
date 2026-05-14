@@ -32,7 +32,9 @@ temp/
 
 # Output directories
 output/
-storage/
+/storage/
+/output/
+/test/
 dist/
 build/
 
@@ -59,6 +61,7 @@ test_report.md
 *_raw.pdf
 *_response/
 *.pdf
+/cmd/api/storage/response/*.json
 
 # Database files
 *.db
